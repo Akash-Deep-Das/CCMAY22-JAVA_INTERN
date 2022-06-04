@@ -6,6 +6,18 @@
  to use the calcuator do this
  java java_calculator
 
+ /*********************************************
+ Features not implemented and few bugs
+
+ i)  No coding done for "+/-" button.
+ ii) Menubar is not included.
+ iii)Not for Scientific calculation
+ iv)Some of the computation may lead to unexpected result
+ due to the representation of Floating point numbers in computer
+ is an approximation to the given value that can be stored
+ physically in memory.
+ ***********************************************/
+
  **********************************************/
 import java.awt.*;
         import java.awt.event.*;
@@ -327,14 +339,3 @@ class MySpecialButton extends Button implements ActionListener
     }//actionPerformed
 }//class
 
-/*********************************************
- Features not implemented and few bugs
-
- i)  No coding done for "+/-" button.
- ii) Menubar is not included.
- iii)Not for Scientific calculation
- iv)Some of the computation may lead to unexpected result
- due to the representation of Floating point numbers in computer
- is an approximation to the given value that can be stored
- physically in memory.
- ***********************************************/
